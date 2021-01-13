@@ -3,6 +3,10 @@ package javatester;
 import java.awt.List;
 import java.util.ArrayList;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 public class Topic_01_Data_Type {
 	public static void main (String[]arg)
 	{
@@ -29,6 +33,20 @@ public class Topic_01_Data_Type {
 		Topic_01_Data_Type topic01 = new Topic_01_Data_Type();
 		Object a ="Can Tho";
 		
-		//List<String> add = new ArrayList<>();
+		//List<String> add = new ArrayList<String>();
+		
+		String fullName = "ABC ADD";
+		//String: kieu du lieu (data type: String/ int/ float/ double/ char/ Array/ Class/ Collection/...)
+		//fullName: ten bien (variable/ field/ property)
+		//ABC ADD: gia tri cua bien
+		
+		WebDriver driver = null;
+		// 1 element
+		WebElement emailTextbox = driver.findElement(By.id(""));
+		
+		// Nhieu element
+		//List <WebElement> checkboxes = driver.findElements(By.id(""));
+		
+		
 	}
 }
