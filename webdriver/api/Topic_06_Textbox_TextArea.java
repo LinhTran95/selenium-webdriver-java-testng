@@ -191,7 +191,7 @@ public class Topic_06_Textbox_TextArea {
 
 	@AfterClass
 	public void afterClass() {
-		// driver.quit();
+		driver.quit();
 	}
 
 	public boolean isElementEnabled(By by) {
