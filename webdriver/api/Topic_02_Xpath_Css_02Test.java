@@ -16,7 +16,7 @@ public class Topic_02_Xpath_Css_02Test {
 	WebDriver driver;
 	@BeforeClass
 	public void beforeClass() {
-		driver = new FirefoxDriver();
+		driver = new FriefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://live.demoguru99.com/index.php/customer/account/login/");
