@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="api.Topic_01_Check_Environment"/>
+      <class name="api.Topic_02_Xpath_Css_02Test"/>
+      <class name="api.Topic_11_User_Interaction_Part_2"/>
+      <class name="api.Topic_08_Custom_Dropdown_Part_1"/>
+      <class name="api.Topic_04_Browser_Method_Part_2"/>
+      <class name="api.Topic_14_Window_Tabs"/>
+      <class name="api.Topic_04_Browser_Method_Part_1"/>
+      <class name="api.Topic_02_Xpath_Css_03"/>
+      <class name="api.Topic_13_IFrame_Frame"/>
+      <class name="api.Topic_05_Element_Method_Part_4"/>
+      <class name="api.Topic_06_Textbox_TextArea"/>
+      <class name="api.Topic_05_Element_Method_Part_3"/>
+      <class name="api.Topic_09_Button_Radio_Checkbox"/>
+      <class name="api.Topic_05_Element_Method_Part_2"/>
+      <class name="api.Topic_05_Element_Method_Part_1"/>
+      <class name="api.Topic_07_Default_Dropdown"/>
+      <class name="api.Topic_10_Alert"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
